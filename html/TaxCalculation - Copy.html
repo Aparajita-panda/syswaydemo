@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Calculation</title>
+    <link href="TaxCalculation.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+    <div>
+<img src="https://lh3.googleusercontent.com/proxy/J1Y3py_VeexswX80BiVJLVBOFeTcnkN0FihaectMPBfIrhViyGBDjtvfby3RYKqTcXqSnLcC7oxoDRM14zixcpEAMYiDXzd88DkbmVsHbw4-ElyUid6-3Yy1OkqGf2vlbxeljlSYsO40">
+<h1>TAX&nbsp;&nbsp;CALCULATION</h1>
+
+
+
+
+<label >Product value:</label>
+<input id="me1" name="input" type="number"><br><br><br>
+<label >Quantity:</label>
+
+<input id="me2" name="input" type="number" onchange="myfun() "><br><br><br><br>
+
+<input id="me3" name=""  type="number" ><br><br>
+
+<label>Tax:</label>
+<input type="number" id="me4" name=""  onchange="myfun1()"><br><br><br>
+
+<label >GrandTotal:</label>
+<input type="number" id="me5" name="" >
+
+
+
+
+
+
+    <script>
+
+        function myfun()
+        {
+           var a=document.getElementById('me1').value;
+           var b=document.getElementById('me2').value;
+           var amount=a*b;
+           document.getElementById('me3').value=amount;
+        }
+
+        function myfun1()
+        {
+            var a=document.getElementById('me1').value;
+            var b=document.getElementById('me2').value;
+            var amount=a*b;   
+            
+            var c=document.getElementById('me4').value;
+            var taxvalue=amount*c/100;
+            var Grandtotal=amount+taxvalue;
+            document.getElementById('me5').value=Grandtotal;
+
+        }
+
+
+             
+
+
+
+    </script>
+    </div>
+</body>
+</html>

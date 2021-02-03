@@ -1,0 +1,36 @@
+#p
+{
+    display: none;
+}
+
+#im
+{
+    height: 520px;
+    width: 700px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+}
+
+#btn1
+{
+    position: absolute;
+    top: 300px;
+    left: 420px;
+    z-index: 1;
+    height: 25px;
+    width: 35px;
+}
+
+#btn2{
+    position: absolute;
+    top: 300px;
+    right: 460px;
+    z-index: 1;
+    height: 25px;
+    width: 35px;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/d7/59/b5/d759b559ad669f9e199f1aaaa381a8ab.jpg');
+}

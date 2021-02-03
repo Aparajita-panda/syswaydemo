@@ -1,0 +1,7 @@
+div{
+    height: 700px;
+    width: 1500px;
+    background-image: url('image1.jfif');border-color: black;
+    border-width: 1px;
+    border-style: ridge;
+}

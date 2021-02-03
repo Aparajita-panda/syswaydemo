@@ -1,0 +1,11 @@
+#me1{
+    border-color: blanchedalmond;
+    border-style: ridge;
+    border-width: 1px;
+    height: 230px;
+    width: 630px;
+    background-image:url('image14.jpg');
+    position: absolute;
+    top: 50px;
+    left: 340px;
+}

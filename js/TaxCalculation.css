@@ -1,0 +1,130 @@
+h1
+{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+    font-size: 60px;
+   font-style:strong;
+   position:relative;
+   left: 90px;
+  bottom: 910px;
+}
+
+img{
+    height: 900px;
+    width: 1500px;
+}
+
+
+#me1
+{
+    position: absolute;
+    top: 200px;
+    left: 810px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+#me2
+{
+    position: absolute;
+    top: 280px;
+    left: 810px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 2px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+}
+#me3
+{
+    position: absolute;
+    top: 340px;
+    left: 810px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+#me3:hover
+{
+    cursor: pointer;
+    background-color: darkcyan;
+    color: black;
+}
+#me4
+{
+    position: absolute;
+    top: 400px;
+    left: 810px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 2px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+}
+#me4:hover
+{
+    cursor: pointer;
+    background-color: darkcyan;
+    color: black;
+}
+#me5
+{
+    position: absolute;
+    top: 460px;
+    left: 810px; border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 100px;
+    height: 55px;
+    width: 250px;
+    text-align: center;
+    background-color: black;
+    color: mintcream;
+    font-size: 20px;
+}
+#me5:hover
+{
+    cursor: pointer;
+    background-color: darkcyan;
+    color: black;
+}
+
+label
+{
+    position: relative;
+    bottom: 863px;
+    left: 580px;
+    font-style:bold;
+    font-size: 35px;
+    color: black;
+    z-index: 2;
+}
+
+
+

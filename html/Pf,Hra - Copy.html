@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link href="Pf,Hra.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculation of PF and HRA Of an Employee</h1>
+    <input type="number" name="" id="b.s"><br><br><br><br><br><br>
+
+<button onclick="myfun1()" id="btn1">calculate PF</button><br><br><br><br><br><br><br><br><br>
+
+<button onclick="myfun2()" id="btn2">calculate HRA</button>
+
+<p id="me1"></p>
+<p id="me2"></p>
+
+    <script >
+    
+
+    function myfun1()
+    {
+        var basicSalary=document.getElementById('b.s').value;
+        var pf=basicSalary*10/100;
+        document.getElementById('me1').innerHTML="The PF value is:"+pf;
+
+    }
+
+    function myfun2()
+    {
+        var basicSalary=document.getElementById('b.s').value;
+        var HRA=basicSalary*25/100;
+        document.getElementById('me2').innerHTML="The HRA value is:"+HRA;
+    }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript..</title>
+
+
+
+    
+</head>
+<body>
+    
+<p id="me"></p>
+<p id="me1"></p>
+<p id="me2"></p>
+<p id="me3"></p>
+<p id="me4"></p>
+<p id="me5"></p>
+<p id="me6"></p>
+
+
+
+
+
+
+
+<script >
+    var m1,m2,m3,total,avg,prcnt;
+m1=50;
+m2=50;
+m3=50;
+total=m1+m2+m3;
+avg=total/3;
+prcnt=total/300*100;
+debugger;
+document.getElementById("me").innerHTML = m1;
+document.getElementById("me1").innerHTML=m2;
+document.getElementById("me3").innerHTML=m3;
+document.getElementById("me4").innerHTML=total;
+document.getElementById("me5").innerHTML=avg;
+document.getElementById("me6").innerHTML=prcnt;
+
+
+if(avg>40)
+{
+    document.write("Student is pass");
+
+if(avg>60)
+{
+    document.write("Student got 1st division.");
+}
+else if(avg>40)
+{
+    document.write("Error.");
+}
+
+}
+
+
+
+
+
+else{
+    document.write("Student is fail");
+}
+
+</script>
+
+
+</body>
+</html>

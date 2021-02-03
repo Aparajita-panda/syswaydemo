@@ -1,0 +1,47 @@
+h1
+{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+}
+
+body
+{
+    background-color: salmon;
+}
+
+#me1
+{
+    position: absolute;
+    height: 80px;
+    width: 150px;
+    top: 590px;
+    left: 500px;
+    background-color: black;
+    color: chartreuse;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#me2
+{
+   position: absolute;
+   height: 80px;
+   width: 150px;
+   top: 590px;
+   right: 500px;
+   background-color: black;
+   color: chartreuse;
+   font-size: 20px;
+   border-radius: 30px;
+
+}
+
+#image
+{
+    position: absolute;
+    top: 170px;
+    left: 650px;
+    height: 400px;
+    
+}

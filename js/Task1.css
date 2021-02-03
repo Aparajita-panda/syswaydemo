@@ -1,0 +1,51 @@
+div{
+    border-width: 1px;
+    border-color: yellow;
+    border-style: ridge;
+    background-color: yellowgreen;
+    height: 725px;
+    width: 1520px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline;
+    
+}
+#me{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: groove;
+    height: 80px;
+    width: 500px;
+    position: absolute;
+    top: 220px;
+    left: 550px;
+    background-color: springgreen;
+    box-shadow: 10px solid yellow;
+
+}
+
+button{
+    border-radius: 10px;
+    border-color: yellow;
+    border-width: 4px;
+    border-style: dotted;
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    top: 450px;
+    left: 700px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#me2{
+    color: white;
+    position: absolute;
+    top: 350px;
+    left: 620px;
+    font-size: 20px;
+}

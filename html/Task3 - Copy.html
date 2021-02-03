@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="Task3.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <h1>FRUITS NAME</h1>
+
+    <button onclick="myfun1()" id="use1" >click Me</button>
+
+<p id="me1"></p>
+
+<button onclick="myfun2()" id="use2">click Here </button>
+
+<p id="me2"></p>
+
+
+<button onclick="myfun3()" id="use3">Submit</button>
+
+<p id="me3"></p>
+
+
+
+
+
+
+
+    <script>
+
+        function myfun1()
+        {
+           
+            document.getElementById('me1').innerHTML="Apple";
+            
+        }
+
+        
+        function myfun2()
+        {
+            document.getElementById('me2').innerHTML="Banana";
+            document.getElementById('me1').innerHTML=" ";
+        }
+
+        function myfun3()
+        {
+            document.getElementById('me3').innerHTML="Mango";  
+            document.getElementById('me2').innerHTML=" ";
+        }
+
+
+        </script>
+
+
+
+
+</body>
+</html>

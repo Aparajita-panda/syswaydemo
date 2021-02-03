@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <link href="slideimage.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    
+
+    <button id="btn1" onclick="inc()"><</button>
+    <button id="btn2" onclick="prev()">></button>
+    <input type="text" id="p">
+    <img id="im" src="https://i.pinimg.com/originals/2e/c1/60/2ec1606caa1b9451e8d4dcfe62c5849e.jpg">
+  
+  
+  
+    <a id="anc" href=""></a>
+  <script type="text/javascript">
+      let c = 0;
+  
+     function inc()
+     {
+  
+      c++;
+  
+      document.getElementById('p').value= c-1;
+     var x=parseInt(document.getElementById('p').value);
+     if (x>=0 && x<5)
+      {
+    swich(x);
+  }
+  else{
+      document.getElementById("anc").href = "#";
+      c=0;
+    }
+     }
+      function prev()
+     {
+      c--
+     document.getElementById('p').value= c-1;
+     var x=parseInt(document.getElementById('p').value);
+     if (x>=0 && x<5)
+      {
+    swich(x);
+  }
+  else{
+      document.getElementById("anc").href = "#";
+      c=5;
+    }
+     }
+  
+   function swich(x)
+   {
+  
+       switch(x)
+     {
+      case 0:{
+          document.getElementById("im").src = "https://www.desktopbackground.org/download/o/2015/10/30/1034343_sujith-spot-colourful-birds-hd-wallpapers-birds-wallpapers-hd_1280x960_h.jpg";
+          break;
+      }
+      case 1:{ 
+          document.getElementById("im").src = "https://1.bp.blogspot.com/-dBQNT4Fwcdw/VIpTsrtPpwI/AAAAAAAAK1w/9jeddRUNSQM/s1600/Birds-HD-wallpapers%2B(1).jpg";
+  
+  
+          break;
+      }
+      case 2:{
+          document.getElementById("im").src = "https://i.pinimg.com/originals/02/f0/09/02f009afb320bac388ea74248e3a8231.jpg";
+          break;
+      }
+      case 3:{
+          document.getElementById("im").src = "https://i.pinimg.com/originals/55/5d/3d/555d3d88170e6a53f4626894a394296d.jpg";
+          break;
+  
+      }
+      case 4:{
+          document.getElementById("im").src = "https://i.pinimg.com/originals/2d/75/a3/2d75a3676597f051efdaf4a6e6417dbb.jpg";
+          break;
+      }
+  
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+     </script>
+
+</body>
+</html>

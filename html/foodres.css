@@ -1,0 +1,97 @@
+#banner{
+    background-image: url('image20.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    position: absolute;
+    top:13px ;
+    left:310px;
+    width: 1200px;
+    opacity: 0.9;
+}
+#logo{
+    width: 85px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-direction: alternate;
+}
+#food{
+    text-align: center;
+    padding-top: 200px;
+
+}
+#food h1{
+    font-size: 80px;
+    font-style: italic;
+    color:yellow;
+    animation-name: h1;
+    animation-duration: 5s;
+}
+#food p{
+    font-size: 20px;
+    font-style: italic;
+    color:white;
+}
+#btn{
+     text-align: center;
+     cursor: pointer;;
+}
+#btn a{
+    text-decoration: none;
+    color: yellow;
+    border: 6px solid #ffffff;
+    border-style: dashed;
+    font-size: 20px;
+    background-color: #000;
+    padding:6px;
+    transition:  0.5s;
+    box-shadow: yellow;
+    z-index: -1;
+    margin: 5px;
+    border-width: 1.8px;
+}
+#btn a:hover{
+    color:red;
+    background-color:#fff;
+}
+#sidenav{
+    height: 700px;
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+    background: #009688;
+    z-index: 2;
+}
+nav ul li{
+       list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Pirata One', cursive;
+    color: #000000;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color:#fff;
+    position: relative;
+}
+
+#sidenav img{
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    position: absolute;
+    left: 170px;
+}
+#sidenav img :hover{
+    color: #000000;
+    cursor: pointer;
+}
+@keyframes h1{
+    from{background-color: red;}
+    to{background-color: royalblue;}
+}

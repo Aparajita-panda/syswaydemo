@@ -1,0 +1,29 @@
+.employee{
+    letter-spacing: 10;
+    width: 150px;
+    
+}
+#table{
+    background-color: black;
+    color: violet;
+    position: absolute;
+    top: 80px;
+    left: 500px;
+}
+#emp{
+    font-size: 40px;
+    color: blue;
+}
+#border{
+    border-radius: 30px;
+    border-color: black;
+    height: 510px;
+    width: 1200px;
+    border: 10px;
+    border-style: ridge;
+    background-color: greenyellow;
+    position: absolute;
+    left: 150px;
+    box-shadow: 2px 2px 5px red;
+    
+}

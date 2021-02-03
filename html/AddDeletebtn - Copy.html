@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="AddDeletebtn.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>PERFORMING ADD AND DELTE BUTTON</h1>
+    <input type="text" name=" " id="content"><br><br>
+ 
+<button onclick="myfun1()" id="container1">Add Button</button>
+<button onclick="myfun2()" id="container2">Delete Button</button>
+
+<p id="me"></p>
+
+
+
+
+
+
+
+    <script>
+        function myfun1()
+        {
+            var input=document.getElementById('content').value;
+            document.getElementById('me').innerHTML=input;
+            document.getElementById('content').innerHTML="";
+            
+        }
+        function myfun2()
+        {
+            var input=document.getElementById('content').value;
+            document.getElementById('me').innerHTML="";
+            document.getElementById('content').value="";
+            
+            
+        }
+    </script>
+
+    
+
+</body>
+</html>

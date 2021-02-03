@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="billSplitter.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    
+    
+    <img src="https://previews.123rf.com/images/karandaev/karandaev1602/karandaev160200134/52148494-herbs-condiments-and-spices-on-wooden-background-top-view-with-copy-space.jpg">
+<h1>BILL &nbsp; SPLITTER</h1>
+    <div class="splitter">
+        <lebel id="label1">Total amount:</lebel>
+        <input id="value" placeholder="enter Total value" name=""><br><br>
+        <lebel id="label2"> No.of people:</lebel>
+        <input id="people" placeholder="enter how many people" name=""><br><br>
+        
+        <button id="btn" onclick="myFunction1()">add tip</button><br><br>
+        
+        <button id="sp" onclick="myFunction()" >Split</button>
+        <div id="splitamount"></div>
+        <button onclick="resetfun()" id="reset">Reset</button>
+        </div>
+        
+        
+        
+            <script>
+                function myFunction(){ 
+                 var amount=parseInt(document.getElementById('value').value);
+                 var people=parseInt(document.getElementById('people').value);
+                 var split=amount/people;
+                 document.getElementById('splitamount').innerHTML=split;
+        
+        
+                }
+            
+                function myFunction1(){
+        
+                 var input=document.createElement('INPUT');
+                 input.setAttribute("id","tip")
+                 btn.remove();
+                
+        
+                 document.body.appendChild(input);
+                 var y=document.getElementById("sp");
+                 y.setAttribute("onclick" ,"pass()");
+        
+        
+                
+                
+        
+                }
+        
+                function pass(){
+                 var amount=parseInt(document.getElementById('value').value);
+                 var people=parseInt(document.getElementById('people').value);
+                 var tip=parseInt(document.getElementById('tip').value);
+                 var tipamount=(amount+tip)/people;
+                 document.getElementById('splitamount').innerHTML=tipamount;
+        
+                }
+                function resetfun(){
+                 document.getElementById('splitamount').innerHTML=" ";
+                 document.getElementById('value').value=" ";
+                 document.getElementById('people').value=" ";
+                 document.getElementById('tip').value=" ";
+        
+                }
+        
+        
+        
+                
+            </script>
+</body>
+</html>

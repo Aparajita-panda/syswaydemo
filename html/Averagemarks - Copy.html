@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="Averagemarks.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>AVERAGE AND GRADE OF STUDENT </h1>
+
+    <img src="https://p0.pxfuel.com/preview/814/215/761/clean-device-digital-device-indoors-royalty-free-thumbnail.jpg">
+
+     <label >Math Mark:</label>
+    <input type="number" name="" id="me1"><br><br><br>
+
+    <label>English Mark:</label>
+    <input type="number" name="" id="me2"><br><br><br>
+
+    <label>Oriya Mark:</label>
+    <input type="number" name="" id="me3"><br><br><br>
+
+    <label >History Mark:</label>
+    <input type="number" name="" id="me4"><br><br><br>
+
+    <label >Geography Mark:</label>
+    <input type="number" name="" id="me5"><br><br><br>
+
+    <label >Hindi Mark:</label>
+    <input type="number" name="" id="me6"><br><br><br><br><br>
+
+    <label >Average Mark:</label>
+    <input type="number"  name="" id="me7" onclick="Average()"><br><br>
+
+
+    
+<p  id="me8" ></p>
+
+
+
+
+    <script>
+
+        function Average()
+        {
+            debugger;
+       
+       var mark1=parseInt(document.getElementById('me1').value);
+       var mark2=parseInt(document.getElementById('me2').value);
+       var mark3=parseInt(document.getElementById('me3').value);
+       var mark4=parseInt(document.getElementById('me4').value);
+       var mark5=parseInt(document.getElementById('me5').value);
+       var mark6=parseInt(document.getElementById('me6').value);
+
+        var sum;
+
+        sum=mark1+mark2+mark3+mark4+mark5+mark6;
+
+         var Avg;
+
+
+         Avg=sum/6;
+
+         document.getElementById('me7').value=Avg;
+        
+   
+
+        
+            
+         if(Avg<=100 && Avg>=91)
+         
+         {
+             document.getElementById('me8').innerHTML="Grade A";
+         }
+
+         else if(Avg>=81 && Avg<=90) 
+         {
+            document.getElementById('me8').innerHTML="Grade B ";
+         }
+
+         else if(Avg>=71 && Avg<=80)
+         {
+            document.getElementById('me8').innerHTML="Grade C";
+         }
+
+         else if(Avg>=61 && Avg<=70)
+         {
+            document.getElementById('me8').innerHTML="Grade D";
+         }
+        
+
+         else if(Avg>=35 && Avg<=60)
+         {
+             document.getElementById('me8').innerHTML="Grade E";
+         }
+        
+        } 
+        
+
+        
+
+
+
+
+       
+
+    </script>
+    
+</body>
+</html>

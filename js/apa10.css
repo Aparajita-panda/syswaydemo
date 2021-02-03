@@ -1,0 +1,27 @@
+#me1{
+    border-width: 1.5px;
+    border-color: red;
+    border-style: ridge;
+    background-image: url('image10.jpg');
+    height: 600px;
+    width: 900px;
+    position: absolute;
+    top: 60px;
+    left: 360px;
+}
+h1{
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    color:black;
+    font-family:cursive;
+
+}
+p{
+    color: lawngreen;
+    font-family: cursive;
+    font-size: 30px;
+}
+#me3{
+    font-size: 30px;
+}

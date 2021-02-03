@@ -1,0 +1,92 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.login-box{
+    background-image: url('black.png');
+    background-size: cover;
+    height: 650px;
+    width: 1300px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    border-color: white;
+    border-width: 2px;
+}
+.me{
+    height: 380px;
+    width: 500px;
+    border-color: #009600;
+    border-width: 3px;
+    border-style: ridge;
+    background-color: #000000; 
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    box-shadow: 2px 2px;
+    box-shadow: 5px 5px yellow;
+
+}
+.me h1{
+     text-align: center;
+    color: white;
+    text-decoration: underline yellow;
+    margin-top: 20px;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 50px;
+    text-shadow: 7px  6px 15px #ff0000;
+    
+}
+.textbox {
+    position: absolute;
+    top: 140px;
+   left:150px;
+    border: 9px solid olive;
+    border-radius: 40px;
+}
+#textbox{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    border: 8px solid olive;
+    border-radius: 40px;
+}
+
+#user{
+    color: white;
+}
+#lock{
+    color: white;
+    size: 15px;
+}
+#btn{
+    border: 10px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+     top: 280px;
+     left: 210px;
+     color: white;
+     font-size: 20px;
+}
+#btn a:hover{
+    background-color: blue;
+    color: red;
+}
+
+#heading{
+    font-size: 100px;
+    color: yellow;
+    animation-name: head;
+    animation-duration: 6s;
+    animation-iteration-count:3 ;
+    position: absolute;
+    top: 15px;
+    
+}
+@keyframes head{
+   0%{background-color: red; top: 0px; left: 0px;}
+   25%{background-color: green; top: 0px; left: 900px;}
+   50%{background-color: purple; top: 400px; left: 0px;}
+   75%{background-color: pink; top: 400px; left: 900px;}
+   100%{background-color: white; top: 0px; left: 0px;}
+    
+}

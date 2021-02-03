@@ -1,0 +1,50 @@
+body{
+    background-color: brown;
+}
+input{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+    left: 600px;
+    border-radius: 30px;
+}
+
+#container1{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    background-color: chartreuse;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#container2{
+    height: 70px;
+    width: 200px;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    background-color: chartreuse;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+#me{
+    color: white;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    font-size: 40px;
+
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
+    position: absolute;
+    left: 100px;
+}

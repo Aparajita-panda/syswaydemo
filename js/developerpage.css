@@ -1,0 +1,32 @@
+#me3{
+    border: 2px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: ridge;
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    left: 500px;
+}
+#me4{
+    border: 2px;
+    border-color: yellow;
+    border-width: 5px;
+    border-style: ridge;
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    left: 250px;
+    top: 200px;
+}
+#me5{
+    border: 2px;
+    border-color: purple;
+    border-width: 5px;
+    border-style: ridge;
+    height: 180px;
+    width: 250px;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+}
